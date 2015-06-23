@@ -1,6 +1,6 @@
 module.exports = {
   paths : {
-    componentsSrc: 'src/css/**/*.css',
+    componentsSrc: ['index.html', 'src/css/**/*.css'],
     componentsDest: '.',
     mainFile: 'src/css/main.css'
   },

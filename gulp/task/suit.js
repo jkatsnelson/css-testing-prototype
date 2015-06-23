@@ -6,6 +6,7 @@ var suit         = require('rework-suit');
 var autoprefixer = require('gulp-autoprefixer');
 var config       = require('../util/config');
 var handleError  = require('../util/handleError');
+var connect = require('gulp-connect');
 // Example of using another rework plugin that isn't part of rework-suit.
 var color = require('rework-plugin-colors');
 
@@ -17,5 +18,6 @@ gulp.task('suit', function() {
     .pipe(rename('components.css'))
     .pipe(autoprefixer(config.autoprefixer))
     .pipe(gulp.dest(config.paths.componentsDest))
+    .pipe(connect.reload())
 
 });
