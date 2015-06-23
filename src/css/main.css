@@ -7,5 +7,5 @@ body {
  * then inlines these components at the build stage. Each suitcss-{plugin} must
  * be npm install'ed
  */
-@import "suitcss-base";
+@import "suitcss";
 @import "./module/AsyncButton.css";

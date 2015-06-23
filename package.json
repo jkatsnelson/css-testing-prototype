@@ -27,6 +27,6 @@
     "rework-suit": "^4.0.0"
   },
   "dependencies": {
-    "suitcss-base": "^0.8.0"
+    "suitcss": "^0.6.0"
   }
 }
