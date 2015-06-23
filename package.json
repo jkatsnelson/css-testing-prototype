@@ -27,6 +27,8 @@
     "rework-suit": "^4.0.0"
   },
   "dependencies": {
-    "suitcss": "^0.6.0"
+    "suitcss": "^0.6.0",
+    "casperjs": "^1.1.0-beta3",
+    "phantomjs": "^1.9.17"
   }
 }
