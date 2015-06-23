@@ -1,0 +1,31 @@
+{
+  "name": "css-testing-prototype",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkatsnelson/css-testing-prototype.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkatsnelson/css-testing-prototype/issues"
+  },
+  "homepage": "https://github.com/jkatsnelson/css-testing-prototype",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rework": "^1.0.3",
+    "rework-plugin-colors": "^1.0.3",
+    "rework-suit": "^4.0.0"
+  },
+  "dependencies": {
+    "suitcss-base": "^0.8.0"
+  }
+}

@@ -1,0 +1,14 @@
+/* Media query aliases */
+@custom-media --wide-screen (min-width: 80em);
+
+/* Custom properties */
+:root {
+  --base-font-size: 16px;
+}
+
+@media (--wide-screen) {
+  html {
+    font-size: calc(var(--base-font-size) * 2);
+    background: rgba(#ccc, .5);
+  }
+}

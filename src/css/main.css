@@ -1,0 +1,12 @@
+body {
+  font-size: 14px
+}
+
+/*
+ * suitcss-base and other suit components @import'ed here. rework (rework-npm)
+ * then inlines these components at the build stage. Each suitcss-{plugin} must
+ * be npm install'ed
+ */
+@import "suitcss-base";
+@import "./module/navigation.css";
+@import "./module/button.css";
