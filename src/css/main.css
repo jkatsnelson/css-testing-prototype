@@ -8,5 +8,4 @@ body {
  * be npm install'ed
  */
 @import "suitcss-base";
-@import "./module/navigation.css";
-@import "./module/button.css";
+@import "./module/AsyncButton.css";

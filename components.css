@@ -513,20 +513,9 @@ ul {
   outline: none !important;
 }
 
-/* Media query aliases */
+/** @define AsyncButton; use strict */
 
-/* Custom properties */
-
-@media (min-width: 80em) {
-  html {
-    font-size: 32px;
-    background: rgba(204, 204, 204, .5);
-  }
-}
-
-/** @define Button; use strict */
-
-.Button {
+.AsyncButton {
   color: red;
   background-color: black;
 }
